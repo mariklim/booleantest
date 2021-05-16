@@ -1,0 +1,70 @@
+body{
+background-image:url("background.jpg");
+background-size: cover;
+}
+
+.conteiner{
+background-color: rgba(0, 0, 0, 0.5);
+width: 1000px;
+height: 700px;
+margin:auto;
+margin-top: 30px;
+margin-bottom: 50px;
+border-radius: 20px;
+font-family: sans-serif;
+color: white;
+}
+
+header, h1{
+color: limegreen;
+text-align: center;
+}
+
+.logo-lim{
+width: 200px;
+padding-top: 50px;
+}
+
+.row-menu{
+padding: 8px;
+background-color: limegreen;
+}
+
+.corpo,.row-menu{
+width: 80%;
+margin: auto;
+}
+
+.tipo-monopattino, .checkbox{
+display: inline-block;
+font-weight: bold;
+}
+
+.direzione{
+font-size: 15px;
+}
+
+.freccia:before{
+content:"\21A3";
+}
+
+.battery1, .battery2, .battery3{
+height: 30px;
+border-radius: 8px;
+}
+
+
+.battery1{
+width: 30%;
+background-color: orange;
+}
+
+.battery2{
+width: 50%;
+background-color: green;
+}
+
+.battery3{
+width: 15%;
+background-color: red;
+}
